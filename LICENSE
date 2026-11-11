@@ -13,12 +13,15 @@ conditions:
    in at least ONE of the following places that end users or developers of your
    product can reasonably see:
      a) the product's user interface (for example an About page, footer, or
-        credits screen), with the text "Theme transition by Vruntime Labs"
-        (the name "Vruntime Labs" may link to https://vruntimelabs.com or a
-        successor URL designated by Vruntime Labs); or
-     b) the product's public documentation, README, or website credits page; or
+        credits screen), with the text "Theme transition by Vruntime Labs".
+        The credit must link to BOTH of these official contact destinations:
+          - GitHub: https://github.com/vruntime-labs
+          - Email: mailto:vruntimelabs@gmail.com
+     b) the product's public documentation, README, or website credits page,
+        with links to both official contact destinations listed above; or
      c) for products with no UI or docs (e.g. a closed-source app), the
-        "open-source licenses" / "acknowledgements" section or equivalent.
+        "open-source licenses" / "acknowledgements" section or equivalent,
+        reproducing the credit and both contact destinations.
 
 2. NOTICE PRESERVED. Source redistributions (including modified versions) must
    retain this license text and the above copyright notice. Binary or bundled
