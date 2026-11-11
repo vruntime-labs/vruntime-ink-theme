@@ -1,0 +1,12 @@
+{
+  "name": "vruntime-ink-theme",
+  "version": "1.0.0",
+  "description": "Dependency-free ink-bleed light/dark theme transition (View Transitions API).",
+  "type": "module",
+  "main": "src/inkbleed.js",
+  "exports": { ".": "./src/inkbleed.js" },
+  "files": ["src", "LICENSE", "NOTICE.md"],
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Vruntime Labs",
+  "keywords": ["theme", "dark-mode", "view-transitions", "animation"]
+}

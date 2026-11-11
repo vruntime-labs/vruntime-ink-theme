@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="color-scheme" content="light dark" />
+<title>Vruntime Ink Theme — demo</title>
+<style>
+  :root { --bg:#f5f2ea; --fg:#16151a; --muted:#6b6872; --accent:#c2410c; }
+  [data-theme='dark'] { --bg:#0c0c12; --fg:#ecebf1; --muted:#9a98a6; --accent:#fb923c; }
+  html { background: var(--bg); }
+  body { margin:0; min-height:100vh; display:grid; place-items:center; background:var(--bg); color:var(--fg);
+         font:17px/1.6 system-ui, sans-serif; }
+  main { max-width:34rem; padding:2rem 1.25rem; }
+  h1 { font-size:clamp(2rem,6vw,3.2rem); line-height:1.1; margin:0 0 .75rem; letter-spacing:-.02em; }
+  p { color:var(--muted); margin:0 0 1.5rem; }
+  button { font:inherit; cursor:pointer; color:var(--bg); background:var(--fg); border:0; border-radius:999px; padding:.7rem 1.4rem; }
+  button:focus-visible { outline:3px solid var(--accent); outline-offset:3px; }
+  footer { margin-top:3rem; font-size:.85rem; color:var(--muted); }
+  footer a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Ink spreads. The theme follows.</h1>
+  <p>Press the button — the new theme bleeds outward from where you click.</p>
+  <button id="toggle" aria-label="Toggle light and dark theme">Switch theme</button>
+  <footer>Theme transition by <a href="https://vruntimelabs.com">Vruntime Labs</a></footer>
+</main>
+<script type="module">
+  import { createInkTheme, bindToggle } from './src/inkbleed.js';
+  const theme = createInkTheme();
+  bindToggle(document.getElementById('toggle'), theme);
+  window.__theme = theme;
+</script>
+</body>
+</html>
