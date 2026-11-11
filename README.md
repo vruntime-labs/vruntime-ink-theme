@@ -23,4 +23,6 @@ Options: `attribute, storageKey, duration, roughness, scale, edge, easing, onCha
 Free for personal and commercial use under the **Vruntime Labs Attribution License v1.0**.
 You must credit **Vruntime Labs** visibly (UI, docs, or acknowledgements) — see `LICENSE` and `NOTICE.md`.
 
+**Attribution links:** [Vruntime Labs on GitHub](https://github.com/vruntime-labs) · [vruntimelabs@gmail.com](mailto:vruntimelabs@gmail.com)
+
 Original work by Vruntime Labs; contains no code from third-party theme-toggle projects.
